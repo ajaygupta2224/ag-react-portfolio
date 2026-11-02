@@ -1,0 +1,10 @@
+.profile-root {
+  .profile-pic {
+    max-height: 480px;
+    width: 360px;
+    max-width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    object-position: top center;
+  }
+}
