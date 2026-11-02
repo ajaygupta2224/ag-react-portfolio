@@ -7,7 +7,7 @@ function About() {
     {
       icon: <FaCode className="text-2xl text-purple-700" />,
       title: "Full-Stack & Microfrontends",
-      desc: "Angular, React, TypeScript, Module Federation, RxJS, and NgRx",
+      desc: "Angular, React, TypeScript, Module Federation, RxJS, NgRx, and more",
     },
     {
       icon: <FaServer className="text-2xl text-blue-700" />,
@@ -28,7 +28,7 @@ function About() {
 
   return (
     <div id="about" className="border-b border-neutral-900 pb-16">
-      <motion.h2 
+      <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -50 }}
         transition={{ duration: 0.8 }}
@@ -37,7 +37,7 @@ function About() {
       </motion.h2>
 
       <div className="flex flex-col lg:flex-row gap-12 items-center">
-        <motion.div 
+        <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -60 }}
           transition={{ duration: 1 }}
@@ -47,14 +47,14 @@ function About() {
           </p>
         </motion.div>
 
-        <motion.div 
+        <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 60 }}
           transition={{ duration: 1 }}
           className="w-full lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-4">
           {highlights.map((item, idx) => (
-            <div 
-              key={idx} 
+            <div
+              key={idx}
               className="p-5 rounded-xl border border-neutral-200 bg-white/70 backdrop-blur-sm shadow-sm hover:shadow-md transition-shadow">
               <div className="mb-3">{item.icon}</div>
               <h4 className="font-semibold text-neutral-900 mb-1">{item.title}</h4>
