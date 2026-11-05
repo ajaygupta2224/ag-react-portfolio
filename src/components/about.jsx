@@ -7,7 +7,7 @@ function About() {
     {
       icon: <FaCode className="text-2xl text-purple-700" />,
       title: "Full-Stack & Microfrontends",
-      desc: "Angular, React, TypeScript, Module Federation, RxJS, NgRx, and more",
+      desc: "Angular, React, TypeScript, Module Federation, RxJS and NgRx",
     },
     {
       icon: <FaServer className="text-2xl text-blue-700" />,
